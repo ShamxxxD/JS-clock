@@ -33,18 +33,18 @@ function addZero(number) {
     let hour = today.getHours();
 
     if (hour < 12 ) { 
-        document.body.style.backgroundImage = "url('./photos/Morning.jpg')";
+        document.body.style.backgroundImage = "url('./img/Morning.jpg')";
         document.body.style.backgroundPosition = 'center';
         document.body.style.backgroundSize = 'cover';
         greeting.innerText = 'Good Morning, ';
     } else if (hour < 18){
-        document.body.style.backgroundImage = "url('./photos/afternoon.jpg')";
+        document.body.style.backgroundImage = "url('./img/afternoon.jpg')";
         document.body.style.backgroundPosition = 'center';
         document.body.style.backgroundSize = 'cover';
         greeting.innerText = 'Good afternoon, ';
 
     }else {
-        document.body.style.backgroundImage = "url('./photos/evening.jpg')";
+        document.body.style.backgroundImage = "url('./img/evening.jpg')";
         document.body.style.backgroundPosition = 'center';
         document.body.style.backgroundSize = 'cover';
         document.body.style.color = 'white';
