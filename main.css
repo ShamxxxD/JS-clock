@@ -15,14 +15,17 @@ body {
 
 .time {
   font-size: 160px;
+  color:#ccc
 }
 
 h1 {
   font-size: 64px;
   margin-bottom: 64px;
+  color:#ccc
 }
 
 h2 {
   font-size: 32px;
   margin-bottom: 16px;
+  color:#ccc
 }
